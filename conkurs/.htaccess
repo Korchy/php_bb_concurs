@@ -1,0 +1,6 @@
+RewriteEngine on
+
+<FilesMatch "(.*.ini|.*.xml)$">
+Order Deny,Allow
+Deny from All
+</FilesMatch>
